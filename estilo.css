@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500&family=Rowdies:wght@300;400&display=swap');
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #f0e7b7;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo {
+    width: 98px;
+    position: absolute;
+    top: 3px;
+    margin-left: 5%;
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+    color: white;
+}
+li {
+    float: left;
+    padding: 20 10 20 10;
+}
+li:hover {
+    background-color: #213679;
+}
+#imagem_fundo {
+    background: url(img/fundo1.png);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+}
+#imagem_todos {
+    background: url(img/quarteto.jpg);
+    height: 50%;
+    width: 85%;
+    text-align: right;
+    background-size: cover;
+}
+#graficos { 
+    height: 30%;
+    width: 30%;
+    text-align: right;
+    background-size: cover;
+}
+
+
+section1 {
+    margin-top: 20px;
+}
+#titulos1 {
+    background:url(img/quemsomos.png);
+    width: 40%;
+    height: 10%;
+    text-align: center;
+    background-size: cover;
+}
+#titulos2 {
+    background:url(img/graficos.png);
+    width: 40%;
+    height: 20%;
+    text-align: center;
+    background-size: cover;
+}
+#titulos3 {
+    text-align: center;
+    background-size: cover;
+    align-content: center;
+}
+#titulos4 {
+    background:url(img/campanha.png);
+    width: 55%;
+    height: 30%;
+    text-align: center;
+    background-size: cover;
+}
+
+#titulos5 {
+    background:url(img/podcast.jpeg);
+    width: 55%;
+    height: 30%;
+    text-align: center;
+    background-size: cover;
+}
+
+#titulo {
+    color: white;
+    padding-top: 20%;
+    font-size: 70px;
+    line-height: 0.6;
+    -font-family: 'Anton', sans-serif;
+    font-family: 'Playfair Display', serif;
+
+    
+}
+#subtitulo {
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 3px solid white;
+    text-shadow: 1px 1px  black;
+}
+#projeto1 {
+    margin-left: 100%;
+    margin-right: 20%;
+    width: 40%;
+    height: 20%;
+}
+#projeto2 {
+    margin-left: 20;
+    margin-right: 80%;
+    width: 40%;
+    height: 20%;
+}
+#projeto3 {
+    margin-left: 100%;
+    margin-right: 20%;
+    width: 40%;
+    height: 20%;
+}
+#projeto4 {
+    margin-left: 100%;
+    margin-right: 20%;
+    width: 40%;
+    height: 20%;
+}
+#acao {
+    color: white;
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px ;
+}
+.icone {
+    width: 51px;
+}
+section {
+    padding: 20px;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+section2 {
+    padding: 20px;
+    float: left;
+    margin-top: 250px;
+    margin-bottom: 20px;
+}
+
+
+section1 {
+    padding: 20px;
+    float: left;
+}
+.destaque {
+    background-color: #f7f7f7;
+}
+.imgeco {
+    width: 90%;
+    height: 30%;
+}
+
+#pdf {
+    width: 300;
+    height: 350;
+    margin-left: 1px;
+}
+
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.dois {
+    width: 40%;
+}
+.quatro {
+    width: 15%;
+}
+.tres {
+    width: 29%;
+    padding: 0 2%;
+}
+
+.justificado {
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+}
+
+#podcast {
+    padding: 30px;
+    height: 102px;
+    width: 400px;
+}
+
+footer {
+    background-color: #213679;
+    float: left;
+    width: 100%;
+    height: 40%;
+    color: white;
+}
+
+@media all and (max-width: 768px) {
+   #menu {
+       visibility: hidden;
+   } 
+   .coluna, .dois, .tres, .quatro {
+        display: block;   
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+   }
+   #logodiv {
+       width: 100%;
+       position: relative;
+       text-align: center;
+       padding: 0px;
+   }
+   #logo {
+       margin-left: 0px;
+       transform: translateX(-50%);
+   }
+}
